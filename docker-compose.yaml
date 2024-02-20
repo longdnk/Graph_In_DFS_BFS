@@ -1,0 +1,10 @@
+version: '2'
+services:
+  pack:
+    build: .
+    container_name: cpp-pack 
+    networks:
+      - app-network
+networks:
+  app-network:
+    driver: bridge
