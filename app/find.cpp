@@ -21,8 +21,6 @@ int32_t main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
-    freopen("in", "r", stdin);
-    freopen("out", "w", stdout);
     cin >> n >> m;
     for (int i = 1, u, v; i <= m; ++i) {
         cin >> u >> v;

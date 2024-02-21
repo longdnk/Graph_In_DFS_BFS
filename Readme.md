@@ -11,7 +11,7 @@ CONFIG for DEVOPS
 </BR>
 RUN IN DOCKER COMPOSE: docker-compose up -d --build
 </BR>
-BUILD IN IMAGE DOCKER: docker build cpp_test .
+BUILD IN IMAGE DOCKER: docker build -t cpp_test:latest .
 </BR>
-RUN IN DOCKER: docker run --it -d cpp_test:latest 
+RUN IN DOCKER: docker run --rm -it  cpp:latest
 </BR>
